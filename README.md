@@ -1,1 +1,3 @@
-# My first website, created for my class
+# My first website, created as an assignment for NPower.
+
+Designed with HTML, styled with CSS, and some functionality added with Javascript.
