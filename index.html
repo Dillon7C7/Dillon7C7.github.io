@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dillon's Personal Website</title>
+	<meta charset="utf-8"/>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />               <!-- Gives us an icon beside our title -->
+	<link href="https://fonts.googleapis.com/css?family=Yrsa|Merriweather" rel="stylesheet"> <!-- Links External CSS File -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+<div id="outerLayer">                                                                        <!-- Outer "wrapper" div -->
+
+	<div id="header">
+		<img src="images/profile.jpg" alt="Picture of Dillon" id="portfolio-pic">
+		<h1>Dillon's Personal Space</h1>
+		<h2>Coded with HTML, CSS, and Javascript</h2>
+	</div>
+
+	<div id="middle">															<!-- javascript:void(0) prevents the page--> 
+		<div id ="divLeft">														<!--from being reloaded or refreshed when-->
+			<ul> 																<!-- a link is clicked -->
+				<br />
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Home')">Home</a></li>  		  <!-- openTab method gives -->
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'AboutMe')">About</a></li> 	  <!-- the tabs their functionality -->
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Portfolio')">Portfolio</a></li> 
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Contact')">Contact</a></li>	
+			</ul>
+		</div>
+
+		<div id ="divRight">
+			<div id="Home" class="tabcontent">
+				<h3>Home</h3>
+				<p>	Welcome to my website. This is my first ever attempt at creating a website (from scratch). It may be quite basic, but I 
+				have learned a lot by putting it together without relying on a template. I have used HTML to design it, CSS to style it, and 
+				Javascript to switch tabs. I learned primarily through <a href="https://www.W3Schools.com"> W3Schools </a>. I hope to update this website more in the future. It is defiantly retro :^).</p>
+			</div>
+
+			<div id="AboutMe" class="tabcontent">
+				<h3>About Me</h3>
+				<p>I am a 25 year old male from Scarborough, Ontario. I have recently rekindled a childhood interest in technology and programming, and am feverishly working hard every day to refresh and improve my problem solving skills. My "end game" career goal is to become a software engineer. <br /><br />I was first exposed to programming as a child through the online RTS game Starcraft. The game allows the creation of custom maps that rely on programmable "triggers" (i.e. events) to create content. After making increasingly complex maps and becoming more and more involved in the Starcraft community, I was introduced to assembly language in the form of memory hacking. Learning how to create hacks was something that made me felt ecstatic: I'm sure I wasn't the only kid that was looking for game-enhancing cheats.<br /><br />After about a year, my school work was given first priority, and I gradually lost interest in programming in favor of more "typical" childhood interests. Over a decade later, I have once again resumed my programming advertures. I was initially looking for a nostalgic rush, but I have come to appreciate programming on a deeper level as a grown adult.</p>
+			</div>
+			
+			<div id="Portfolio" class="tabcontent">
+				<h3>Portfolio</h3>
+				<p>Here is a link to my github, which I will use to upload projects, including this website.</p>
+				<a href="https://www.github.com/Dillon7C7"  rel="noopener noreferrer" target="_blank">
+				<img border="0" alt="Github" src="images/github.png" width="100" height="100"></a>
+			</div>
+			
+			<div id="Contact" class="tabcontent">
+				<h3>Contact Me</h3>
+				<form id="submit-form" action="/submit-link">             							<!-- submit info to this url *not working*-->
+					<input id="name" type="text" placeholder="Enter your name here..." required> 
+					<input id="email" type="email" placeholder="123@example.com" required><br />
+					<textarea id="message" type="text" placeholder="Enter your message here" required></textarea><br />     <!-- input text -->
+					<button id="submit-btn" type="submit">Submit</button> 					   								<!-- submit button -->
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer">
+		&copy; 2017 Dillon Dommer. All Rights Reserved		
+	</div>
+</div>
+<script src="js/jscript.js"></script>
+</body>
+</html>

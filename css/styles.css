@@ -1,0 +1,195 @@
+#outerLayer							/* our wrapper */
+{
+	width: 900px;
+	min-height: 600px;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+#header							       /* our header */
+{
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	text-align: center;
+	color: #884636;
+	vertical-align: middle;
+	line-height: 50px;
+	background-image: url("../images/header-pic.jpg");
+	background-size: 100%, 100%;
+	background-color: #0011FF;
+}
+
+#portfolio-pic					    /* style the profile pic */
+{
+	display: block;
+	position: relative;
+	border-radius: 50vh;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+#middle							 /* middle div that contains the left menu and the right tab space */
+{
+	width: 100%;
+	min-height: 400px;
+}
+
+#divLeft						/* Our menu div */
+{
+	width: 150px;
+	min-height: 400px;
+	background-color: #FF0100;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	float: left;	
+}
+
+#divRight						/* tab stuff is styled here */
+{
+	width: 748px;
+	min-height: 400px;
+	color: #00FF00;
+	background-color: #FFFFFF;
+	float: right;
+}
+
+#footer							 /* styles the footer */
+{
+	width: 100%;
+	height: 50px;
+	margin: 1px -100px 0 0;
+	background-image: url("../images/footer-pic.jpg");
+	background-color: #456373;
+	vertical-align: middle;
+	line-height: 50px;
+	text-align: center;
+	text-indent: -150px;
+	color: red;
+}
+
+ul 								/* styles the list */
+{
+	height: 370px;
+	list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    overflow: hidden;
+	background-image: url("../images/menu-pic.jpg");
+    background-color: #333333;
+}
+
+li								/* styles the list elements */
+{
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	text-size: 40;
+}
+
+li a 							/* styles the list element links */
+{
+    display: block;
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+}
+
+li a:hover 					/* styles the list elements when the mouse is hovering */
+{
+    background-color: #111111;
+}
+
+h1							/* styles h1 */
+{
+	font-family: Yrsa, Sans-Serif;
+	font-size: 3em;
+}
+
+h2							/* styles h2 */
+{
+	font-family: Merriweather, Ariel;
+	font-size: 1.9em;
+	line-height: 5px;
+}
+
+h3							/* styles h3 */
+{	
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.tabcontent					/* styles the contents of our tabs */
+{
+	display: none;
+    margin: 0 auto;
+	text-align: center;
+	display:none;
+}
+
+#Home						/* styles the "home" tab */
+{
+	overflow: hidden;
+	width: 748px;
+	min-height: 401px;
+	display: block;
+	background-image: url("../images/tab-image.jpg");
+	background-color: black;
+}
+
+#AboutMe						/* styles the "about me" tab */
+{
+	overflow: hidden;
+	width: 748px;
+	min-height: 401px;
+	background-image: url("../images/aboutme-pic.jpg");
+	background-color: black;
+	background-size: cover;
+}
+
+#Portfolio						/* styles the "portfolio" tab */
+{
+	overflow: hidden;
+	width: 748px;
+	min-height: 401px;
+	background-image: url("../images/portfolio-pic.jpg");
+	background-color: black;
+	background-size: cover;
+}
+
+#Contact						/* styles the "contact" tab */
+{
+	overflow: hidden;
+	width: 748px;
+	min-height: 401px;
+	background-image: url("../images/contact-pic.jpg");
+	background-color: black;
+	background-size: cover;
+}
+
+#submit-btn						/* styles the button */
+{
+	width: 305px;
+}
+
+#message						/* styles our textbox */
+{
+	width: 297px;
+	resize: none;
+}
+
+.tablinks					 /* styles tab links */
+{
+	font-size: 20px;
+}
+
+body						/* styles the body of the entire website */
+{
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-color: green;
+}
